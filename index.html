@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+<div class="container">
+        <h2 class="head">CALCULATOR <span>xAD13522</span></h2>
+
+        <div class="screen">
+            <input type="text" id="answer" disabled> 
+        </div>
+
+    <div class="buttons">
+        <div class="funtion-keys">
+                <button class="dif-color-AC" onclick="clearSum()">CE</button>
+                <button id="dif-color" class="big-btn" onclick="del()">DEL</button>  
+                
+                <button  class="dif-color" onclick="clickValue('/')"><i class="fa-sharp fa-solid fa-divide" style="color: #000000;"></i></button>
+        </div>
+
+    <div class="first-row">
+        <button onclick="clickValue('7')">7</button>
+        <button onclick="clickValue('8')">8</button>
+        <button onclick="clickValue('9')">9</button>
+        <button class="dif-color" onclick="clickValue('*')">x</button>
+    </div>
+
+    <div class="Sec-row">
+        <button onclick="clickValue('4')">4</button>
+        <button onclick="clickValue('5')">5</button>
+        <button onclick="clickValue('6')">6</button>
+        <button class="dif-color" onclick="clickValue('-')">-</button>
+    </div>
+
+    <div class="third-row">   
+        <button onclick="clickValue('1')">1</button>
+        <button onclick="clickValue('2')">2</button>
+        <button onclick="clickValue('3')">3</button>
+        <button class="dif-color" onclick="clickValue('+')">+</button>
+    </div>
+
+    <div class="zero-row">
+        <button class="dif-color" onclick="clickValue('.')">.</button>
+        <button onclick="clickValue('0')">0</button>
+        <button id="dif-color" class="big-btn"onclick="equalSum('=')">=</button>
+    </div>
+        
+    </div>
+</div>
+</section>
+
+<footer>
+<p>All rights reserved <i class="fa-solid fa-copyright"></i></p>
+</footer>
+
+<script src="https://kit.fontawesome.com/850ca6a355.js" crossorigin="anonymous"></script>
+<script src="./script/code.js"></script>
+</body>
+</html>

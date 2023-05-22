@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+:root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 205, 236);
+    font-family: 'Cinzel', serif;
+
+}
+.head{
+    text-align: center;
+    /* background-color: rgb(251, 247, 255); */
+    height: 20px;
+    font-size: 30px;
+    margin: 6px;
+    padding: PX;
+    color: rgba(255, 80, 80, 0.548);
+}
+
+span{
+    color: rgb(0, 0, 0);
+    font-size: x-small;
+    background-color: rgba(255, 255, 255, 0.354);
+}
+
+.container {
+    width: 24rem;
+    padding: 14px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-inline: auto;
+
+    background-image: url(https://i.postimg.cc/L5gcqNXR/desktop-wallpaper-neutral-background-74-best-background-color-website-and-neutral-colors.jpg);
+    
+    border: 9px solid #000000;
+    border-radius: 15px;
+}
+
+.screen input{
+    width: 24rem; 
+    height: 60px;
+    margin-top: 10px;
+    
+    /* background: transparent; */
+    color: #000000;
+    border: 1px solid black;
+    box-shadow: inset 4px 2px 5px rgb(85, 34, 34);
+
+    text-align: right;
+    font-size: 58px;
+    border-radius: 20px;
+    font-family: 'Cinzel', serif; 
+}
+
+.screen{
+    text-align: right;
+    font-size: 55px;
+}
+
+button{
+    width: 70px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 9px;
+
+    font-weight:850;
+    font-size: 25px;
+
+    background: rgb(128, 125, 125);
+    box-shadow: 3px 5px 3px rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-.2rem);
+}
+
+.big-btn{ 
+    width: 160px;
+}
+#dif-color:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#dif-color, .dif-color{
+    background-color: rgba(255, 80, 80, 0.548);
+}
+.dif-color-AC{
+background-color: rgba(255, 0, 0, 0.791);
+}
+
+footer{
+    font-size: xx-small ;
+    margin: 0;
+    text-align: center;
+}
